@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import TifRenameApi as tra
+import FileRenameApi as fra
 import pandas as pd
 
 # input the required parameters
@@ -10,5 +10,5 @@ csvPath = input("Please ENTER the \"input index csv file\" pos：") # .../During
 conversionData = pd.read_csv(csvPath)
 
 # create OO
-oneRenameApi = tra.TifRenameApi(renameFilePath,conversionData)
+oneRenameApi = fra.FileRenameApi(renameFilePath,conversionData)
 oneRenameApi.main()
