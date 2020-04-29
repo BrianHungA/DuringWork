@@ -1,2 +1,6 @@
 
 .DS_Store
+
+FeatureGenApi/.ipynb_checkpoints/
+
+FeatureGenApi/__pycache__/
