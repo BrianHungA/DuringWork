@@ -10,8 +10,10 @@ This API is a tool to help rename a large amount of files with python 3.
 
 - **FeatureGenApi**  
 This API contains two class. 
-  - "TimeGroupGen" is a tool help deal with time serious data to transform them into specific time interval. It can one-time seperatly transform several user's searching time series data and grouping them one by one and generate 2 new columns named "GROUP_SIMILAR_IP" and "GROUP_SIMILAR_GROUP".
-  - "QueryNumberGen" is a tool help count the query numbers from several users. It can one-time seperatly count several user's searching data and generate a new feature column named "QUERY_NUMBER"
+  - "TimeGroupGen"  
+  This tool help deal with time serious data to transform them into specific time interval. It can one-time seperatly transform several user's searching time series data and grouping them one by one and generate 2 new columns named "GROUP_SIMILAR_IP" and "GROUP_SIMILAR_GROUP".
+  - "QueryNumberGen"  
+  This tool help count the query numbers from several users. It can one-time seperatly count several user's searching data and generate a new feature column named "QUERY_NUMBER"
   - UserGuild:  
       1. Download the package including the Api, demo_code, and the test data. Put them in the same folder.
       2. Run the demo_code and choose the designated Api you want.
